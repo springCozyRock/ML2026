@@ -1,0 +1,6 @@
+{
+  "five_fold_configurations": 55,
+  "optuna_trials": 40,
+  "five_fold_model_fits": 275,
+  "additional_stability_fits": 40
+}

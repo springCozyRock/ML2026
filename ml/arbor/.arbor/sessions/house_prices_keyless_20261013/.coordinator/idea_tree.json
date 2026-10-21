@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "meta": {
+    "baseline_score": 0.10432475735803212,
+    "trunk_score": 0.10432475735803212,
+    "test_baseline_score": 0.11477,
+    "test_trunk_score": 0.11477,
+    "eval_cmd": "cd {cwd} && /home/xzr/bin/python evaluate.py --node-id {node_id}",
+    "eval_cmd_test": null,
+    "eval_timeout": null,
+    "eval_retries": null,
+    "eval_retry_base_delay": null,
+    "eval_retry_max_delay": null,
+    "dataset_info": "All1460 official train rows, fixed seed73 fivefold CV reused from earlier experiments. Three new real candidates, one final Kaggle check. No pristine local holdout.",
+    "metric_direction": "minimize",
+    "trunk_branch": "codex/arbor-house-prices",
+    "submission_path": "baseline/submission.csv",
+    "sample_submission_path": "data/sample_submission.csv"
+  },
+  "root_id": "ROOT",
+  "max_depth": 2,
+  "nodes": {
+    "ROOT": {
+      "id": "ROOT",
+      "parent_id": null,
+      "children_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "depth": 0,
+      "hypothesis": "House Prices real keyless Arbor run:3 experiments,30minute user-authorized window.",
+      "status": "done",
+      "insight": "All3 experiments executed and correctly rejected. Spline and target encoding worsened development score; robust residual improved dev0.10432476 to0.10419448 but Kaggle0.11480 is worse than0.11477. Baseline preserved; independent online verification prevented accepting a false gain."
+    },
+    "1": {
+      "id": "1",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Spline Ridge smooth nonlinear features; compare fixed0.2 blend without changing protected rare-sale gate.",
+      "status": "pruned",
+      "code_ref": "codex/arbor-node-1",
+      "score": 0.10576916790256756,
+      "insight": "Fixed20percent candidate blend worsened the cached full-row CV baseline; preserve baseline and reject merge.",
+      "result": "Rejected: development RMSE worsened."
+    },
+    "2": {
+      "id": "2",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Cross-fitted TargetEncoder plus category frequencies and regularized LightGBM; no validation targets in training.",
+      "status": "pruned",
+      "code_ref": "codex/arbor-node-2",
+      "score": 0.10533124408155023,
+      "insight": "Fixed20percent candidate blend worsened the cached full-row CV baseline; preserve baseline and reject merge.",
+      "result": "Rejected: development RMSE worsened."
+    },
+    "3": {
+      "id": "3",
+      "parent_id": "ROOT",
+      "children_ids": [],
+      "depth": 1,
+      "hypothesis": "Lasso plus pseudo-Huber XGBoost residual; robust noisy-sale loss with fixed training rounds.",
+      "status": "pruned",
+      "code_ref": "codex/arbor-node-3",
+      "score": 0.10419447655090831,
+      "insight": "Robust residual blend gave small0.00013028 dev improvement on historical folds; online verification required before merge.",
+      "result": "Rejected: Kaggle0.11480 did not improve verified baseline0.11477; tiny development gain did not transfer."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "score": 0.10533124408155023,
+  "insight": "Training-only cross-fitted target encoding plus regularized LightGBM worsened the fixed 0.2 blend in four of five folds. This configuration did not add useful complementary signal to the existing blend.",
+  "result": "One full five-fold B_dev evaluation completed in 11.25 seconds, with all protected hashes and output schema checks passing. RMSE increased by 0.00100648672351811 relative to baseline; do not merge.",
+  "code_ref": "codex/arbor-node-2"
+}

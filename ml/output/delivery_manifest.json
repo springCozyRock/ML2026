@@ -1,0 +1,17 @@
+{
+  "best_kaggle_score": 0.11477,
+  "best_submission_ref": 57128941,
+  "target_below_0_1_reached": false,
+  "five_fold_configurations": 55,
+  "optuna_trials": 40,
+  "notebook_code_cells_passed": 14,
+  "saved_fullfit_pipelines": 12,
+  "pdf_pages": 15,
+  "sha256_submission": "ecd1a9d6803b2a4a178de2aa83dc29471895639d1e27de27f585bb5d128ee238",
+  "server_path": "/mnt/data/bts/repos/homework/ml",
+  "report_identity": {
+    "name": "边通书",
+    "major": "计算机科学与技术",
+    "student_id": "26B351012"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "score": 0.10576916790256756,
+  "insight": "Smooth spline Ridge failed to complement the existing ensemble at fixed 0.2 blending; four of five folds worsened. Historical CV only, no pristine local heldout.",
+  "result": "All1460 five-fold OOF RMSE 0.10576916790256756, worse than baseline0.10432475735803212; schema, positivity and protected hashes passed.",
+  "code_ref": "codex/arbor-node-1"
+}

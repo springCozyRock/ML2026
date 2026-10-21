@@ -1,0 +1,69 @@
+[
+  {
+    "name": "svr_extended_10_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 10,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "optuna_23",
+    "kind": "residual_xgb",
+    "params": {
+      "n_estimators": 3500,
+      "learning_rate": 0.021607890047584958,
+      "max_depth": 4,
+      "min_child_weight": 1.5801865195096594,
+      "subsample": 0.7451404872469671,
+      "colsample_bytree": 0.9278714831548048,
+      "reg_alpha": 0.03792383300056512,
+      "reg_lambda": 0.399200974800121,
+      "device": "cuda:5",
+      "base_alpha": 0.0007514212514954772
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "xgb_d3",
+    "kind": "xgb",
+    "params": {
+      "n_estimators": 5000,
+      "learning_rate": 0.02,
+      "max_depth": 3,
+      "min_child_weight": 2,
+      "subsample": 0.8,
+      "colsample_bytree": 0.7,
+      "reg_alpha": 0.05,
+      "reg_lambda": 2
+    },
+    "level": "engineered",
+    "transform": "none",
+    "scale": "robust",
+    "rare": 1
+  },
+  {
+    "name": "cat_cpu_d4",
+    "kind": "cat",
+    "params": {
+      "iterations": 5000,
+      "learning_rate": 0.025,
+      "depth": 4,
+      "l2_leaf_reg": 3,
+      "boosting_type": "Ordered",
+      "task_type": "CPU"
+    },
+    "level": "engineered",
+    "transform": "none",
+    "scale": "robust",
+    "rare": 1
+  }
+]

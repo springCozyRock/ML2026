@@ -1,0 +1,5 @@
+task: Improve House Prices baseline OOF RMSE in three new Codex keyless Arbor experiments, respecting ARBOR_CONTRACT.md and protected evaluation files.
+coordinator:
+  max_cycles: 3
+  ui:
+    interaction_mode: auto

@@ -1,0 +1,8 @@
+{
+  "node_id": "1",
+  "hypothesis": "Spline Ridge smooth nonlinear features; compare fixed0.2 blend without changing protected rare-sale gate.",
+  "score": 0.10576916790256756,
+  "insight": "Fixed20percent candidate blend worsened the cached full-row CV baseline; preserve baseline and reject merge.",
+  "result": "Real full5fold evaluation passed protected hashes and submission schema.",
+  "branch": "codex/arbor-node-1"
+}

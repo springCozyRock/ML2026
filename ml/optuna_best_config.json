@@ -1,0 +1,82 @@
+[
+  {
+    "name": "optuna_14",
+    "kind": "residual_xgb",
+    "params": {
+      "n_estimators": 3500,
+      "learning_rate": 0.05888351585859846,
+      "max_depth": 4,
+      "min_child_weight": 2.3527842755417354,
+      "subsample": 0.8105371185645752,
+      "colsample_bytree": 0.8581977086484471,
+      "reg_alpha": 0.050177721791817495,
+      "reg_lambda": 0.928244139751158,
+      "device": "cuda:5",
+      "base_alpha": 0.000604866318979166
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "optuna_18",
+    "kind": "residual_xgb",
+    "params": {
+      "n_estimators": 3500,
+      "learning_rate": 0.015912974801744684,
+      "max_depth": 4,
+      "min_child_weight": 2.5294744730594196,
+      "subsample": 0.7364640051315464,
+      "colsample_bytree": 0.8274515593465699,
+      "reg_alpha": 0.10626220970667993,
+      "reg_lambda": 0.45315093867770595,
+      "device": "cuda:5",
+      "base_alpha": 0.0005482506645244592
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "optuna_23",
+    "kind": "residual_xgb",
+    "params": {
+      "n_estimators": 3500,
+      "learning_rate": 0.021607890047584958,
+      "max_depth": 4,
+      "min_child_weight": 1.5801865195096594,
+      "subsample": 0.7451404872469671,
+      "colsample_bytree": 0.9278714831548048,
+      "reg_alpha": 0.03792383300056512,
+      "reg_lambda": 0.399200974800121,
+      "device": "cuda:5",
+      "base_alpha": 0.0007514212514954772
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "optuna_31",
+    "kind": "residual_xgb",
+    "params": {
+      "n_estimators": 3500,
+      "learning_rate": 0.020496910969725418,
+      "max_depth": 4,
+      "min_child_weight": 2.4262930324827168,
+      "subsample": 0.741047383598989,
+      "colsample_bytree": 0.9285039037758187,
+      "reg_alpha": 0.030708122694307536,
+      "reg_lambda": 0.5805647261722325,
+      "device": "cuda:5",
+      "base_alpha": 0.0006995943529348272
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  }
+]

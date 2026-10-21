@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    42,
+    2026,
+    73
+  ],
+  "records": [
+    {
+      "name": "svr_extended_10_0.0005",
+      "seed": 42,
+      "train_rmse_only": 0.08664258885557595
+    },
+    {
+      "name": "svr_extended_10_0.0005",
+      "seed": 2026,
+      "train_rmse_only": 0.08664258885557595
+    },
+    {
+      "name": "svr_extended_10_0.0005",
+      "seed": 73,
+      "train_rmse_only": 0.08664258885557595
+    },
+    {
+      "name": "optuna_23",
+      "seed": 42,
+      "train_rmse_only": 0.058305655703747176
+    },
+    {
+      "name": "optuna_23",
+      "seed": 2026,
+      "train_rmse_only": 0.05818228216762623
+    },
+    {
+      "name": "optuna_23",
+      "seed": 73,
+      "train_rmse_only": 0.05844349898722382
+    },
+    {
+      "name": "xgb_d3",
+      "seed": 42,
+      "train_rmse_only": 0.04740804780856529
+    },
+    {
+      "name": "xgb_d3",
+      "seed": 2026,
+      "train_rmse_only": 0.04778780525226788
+    },
+    {
+      "name": "xgb_d3",
+      "seed": 73,
+      "train_rmse_only": 0.047294128072797904
+    },
+    {
+      "name": "cat_cpu_d4",
+      "seed": 42,
+      "train_rmse_only": 0.07439105273507672
+    },
+    {
+      "name": "cat_cpu_d4",
+      "seed": 2026,
+      "train_rmse_only": 0.08061229639279241
+    },
+    {
+      "name": "cat_cpu_d4",
+      "seed": 73,
+      "train_rmse_only": 0.07760914003142945
+    }
+  ],
+  "weights": {
+    "lasso_extended_boxcox_robust": 0.0,
+    "svr_extended_10_0.0005": 0.3339525730326733,
+    "optuna_23": 0.5000113154636346,
+    "xgb_d3": 0.1240863056454329,
+    "cat_cpu_d4": 0.04194980585825913,
+    "gbr_huber": 1.5599061362834978e-17,
+    "ridge_extended_20": 3.65958517412916e-17,
+    "lgb_8": 0.0
+  },
+  "rare_transaction_log_mean": 12.054843966513205,
+  "note": "Training errors are not validation scores. Fullfit + CV bag is a candidate requiring Kaggle evaluation."
+}

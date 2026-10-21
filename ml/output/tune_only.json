@@ -1,0 +1,44 @@
+{
+  "models": [
+    "lasso_extended_boxcox_robust",
+    "svr_extended_10_0.0005",
+    "ridge_extended_20"
+  ],
+  "weights": {
+    "lasso_extended_boxcox_robust": 0.49215477797057217,
+    "svr_extended_10_0.0005": 0.507845222029428,
+    "ridge_extended_20": 0.0
+  },
+  "oof_rmse": 0.10685291766125492,
+  "meta_crossfit_rmse": 0.1069674955642366,
+  "meta_crossfit_weights": [
+    [
+      0.5126638006042289,
+      0.4873361993957711,
+      2.3879552848993235e-17
+    ],
+    [
+      0.5244749423662813,
+      0.4755250576337188,
+      0.0
+    ],
+    [
+      0.5292681969581318,
+      0.47073180304186824,
+      3.63207727782644e-17
+    ],
+    [
+      0.5029038022627063,
+      0.4970961977372938,
+      4.87890977618477e-19
+    ],
+    [
+      0.45,
+      0.5499999999999999,
+      2.7755575615628914e-17
+    ]
+  ],
+  "note": "Base-model hyperparameters selected on these CV rows. Meta crossfit is a diagnostic, not unbiased nested validation.",
+  "run": "tune",
+  "label": "tune_only"
+}

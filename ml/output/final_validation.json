@@ -1,0 +1,96 @@
+{
+  "selection": {
+    "rmse": 0.1043389378238206,
+    "mae_price": 12178.3555699521,
+    "r2_log": 0.9318149787060641,
+    "n_rows": 1458,
+    "weights": {
+      "svr_extended_10_0.0005": 0.3339525730326733,
+      "optuna_23": 0.5000113154636346,
+      "xgb_d3": 0.1240863056454329,
+      "cat_cpu_d4": 0.04194980585825913
+    }
+  },
+  "confirmation": {
+    "rmse": 0.104301574476552,
+    "mae_price": 12228.97975028857,
+    "r2_log": 0.93186380351751,
+    "n_rows": 1458,
+    "weights": {
+      "svr_extended_10_0.0005": 0.3339525730326733,
+      "optuna_23": 0.5000113154636346,
+      "xgb_d3": 0.1240863056454329,
+      "cat_cpu_d4": 0.04194980585825913
+    }
+  },
+  "all_rows_audit": {
+    "rmse": 0.1241676897565335,
+    "mae_price": 13463.04970985425,
+    "r2_log": 0.9033090444854347,
+    "n_rows": 1460,
+    "weights": {
+      "svr_extended_10_0.0005": 0.3339525730326733,
+      "optuna_23": 0.5000113154636346,
+      "xgb_d3": 0.1240863056454329,
+      "cat_cpu_d4": 0.04194980585825913
+    }
+  },
+  "multiseed_oof_rmse": 0.10356789913441439,
+  "calibration_trials": [
+    {
+      "degree": 1,
+      "crossfit_rmse": 0.10355277846229619,
+      "coefficients": [
+        0.009589743065245328
+      ],
+      "intercept": -0.0020767203255577897
+    },
+    {
+      "degree": 2,
+      "crossfit_rmse": 0.10374599664224524,
+      "coefficients": [
+        0.009434351540864075,
+        0.001115640993311709
+      ],
+      "intercept": -0.002236457834405048
+    },
+    {
+      "degree": 3,
+      "crossfit_rmse": 0.10369901368180409,
+      "coefficients": [
+        -0.005892249673201792,
+        -0.005019909034827425,
+        0.03330488599040241
+      ],
+      "intercept": -0.0017503444541179928
+    }
+  ],
+  "best_calibration": {
+    "degree": 1,
+    "crossfit_rmse": 0.10355277846229619,
+    "coefficients": [
+      0.009589743065245328
+    ],
+    "intercept": -0.0020767203255577897
+  },
+  "top10_squared_error_fraction": 0.2384942209086687,
+  "all_rows_anomalies": [
+    {
+      "Id": 524,
+      "actual_log": 12.126758838810447,
+      "actual_price": 184750,
+      "prediction_log": 13.625398694426051,
+      "prediction_price": 826866.6325425373,
+      "residual_log": -1.498639855615604
+    },
+    {
+      "Id": 1299,
+      "actual_log": 11.982929094215963,
+      "actual_price": 160000,
+      "prediction_log": 14.084127428321501,
+      "prediction_price": 1308153.8525051468,
+      "residual_log": -2.101198334105538
+    }
+  ],
+  "note": "Multiple splits reuse the same labels; these are stability diagnostics, not independent test sets. All-row audit retains both anomalies for scoring, removes them only in each fold training set."
+}

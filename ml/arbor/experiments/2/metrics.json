@@ -1,0 +1,8 @@
+{
+  "node_id": "2",
+  "hypothesis": "Cross-fitted TargetEncoder plus category frequencies and regularized LightGBM; no validation targets in training.",
+  "score": 0.10533124408155023,
+  "insight": "Fixed20percent candidate blend worsened the cached full-row CV baseline; preserve baseline and reject merge.",
+  "result": "Real full5fold evaluation passed protected hashes and submission schema.",
+  "branch": "codex/arbor-node-2"
+}

@@ -1,0 +1,16 @@
+{
+  "metric": "rmse_log_price_all_1460",
+  "metric_direction": "minimize",
+  "n_splits": 5,
+  "random_state": 73,
+  "blend_weight": 0.2,
+  "baseline_score": 0.10432475735803212,
+  "online_baseline_score": 0.11477,
+  "baseline_online_source": "../submission.csv",
+  "candidate_train_exclusion": "GrLivArea > 4000 and SaleCondition == Partial",
+  "rare_gate": "GrLivArea > 4000 and SaleCondition == Partial",
+  "dev_only": true,
+  "pristine_local_heldout": false,
+  "max_new_experiments": 3,
+  "max_minutes_total": 30
+}

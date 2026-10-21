@@ -1,0 +1,12 @@
+{
+  "evaluate.py": "a94285b5e270e9a6cbfa607ad35dafc6f3d975710513ad84abb2b99e3f830cfe",
+  "config.json": "01cbd04819a7e412a7fdb7a46a976095312dbc5a5e22ac04b21cc18b1f5ec649",
+  "data/data_description.txt": "356a4670aa688afa8ba44b1365b633fbbac2dae535fe4638532630607d64070d",
+  "data/sample_submission.csv": "f19e99699b925aa3085c8d2ae43c62f15fbcd35e4a953b98025f8392c3ffa807",
+  "data/test.csv": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e",
+  "data/train.csv": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41",
+  "baseline/oof.csv": "03d1705624ac248d28d2eb676a5cdc2b38ceddde0011d430b90e31f0c5b34502",
+  "baseline/submission.csv": "ecd1a9d6803b2a4a178de2aa83dc29471895639d1e27de27f585bb5d128ee238",
+  "baseline/transaction_branch.json": "02954b79076b113d8a09be9ae55bcc7a4d33b2f53c8854b8a3c30613ac657d1b",
+  "legacy_features.py": "f5a5b926e6c0b6a252cd8f1503679d61a49c78a47ee782c28f1882b8d7120430"
+}

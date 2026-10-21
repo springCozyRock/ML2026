@@ -1,0 +1,92 @@
+{
+  "condition": "GrLivArea > 4000 and SaleCondition == Partial",
+  "official_training_n": 2,
+  "training_ids": [
+    524,
+    1299
+  ],
+  "affected_test_n": 1,
+  "affected_test_ids": [
+    2550
+  ],
+  "fitted_price": 171930.21840269954,
+  "all_rows_original_rmse": 0.12416768975653349,
+  "all_rows_branch_rmse": 0.10432475735803212,
+  "branch_leave_one_out": [
+    {
+      "fold": 3,
+      "expert_training_ids": [
+        524
+      ],
+      "expert_validation_ids": [
+        1299
+      ],
+      "expert_prediction": 184749.99999999985
+    },
+    {
+      "fold": 5,
+      "expert_training_ids": [
+        1299
+      ],
+      "expert_validation_ids": [
+        524
+      ],
+      "expert_prediction": 159999.9999999999
+    }
+  ],
+  "threshold_sensitivity": [
+    {
+      "threshold": 3800,
+      "train_n": 2,
+      "train_ids": [
+        524,
+        1299
+      ],
+      "test_n": 1,
+      "test_ids": [
+        2550
+      ],
+      "estimated_price": 171930.21840269954
+    },
+    {
+      "threshold": 4000,
+      "train_n": 2,
+      "train_ids": [
+        524,
+        1299
+      ],
+      "test_n": 1,
+      "test_ids": [
+        2550
+      ],
+      "estimated_price": 171930.21840269954
+    },
+    {
+      "threshold": 4200,
+      "train_n": 2,
+      "train_ids": [
+        524,
+        1299
+      ],
+      "test_n": 1,
+      "test_ids": [
+        2550
+      ],
+      "estimated_price": 171930.21840269954
+    },
+    {
+      "threshold": 4500,
+      "train_n": 2,
+      "train_ids": [
+        524,
+        1299
+      ],
+      "test_n": 1,
+      "test_ids": [
+        2550
+      ],
+      "estimated_price": 171930.21840269954
+    }
+  ],
+  "warning": "Only two rare transactions support this branch. This is a hypothesis selected after EDA, not independent confirmation or a reliable general business rule. No hidden test labels or external labels used."
+}

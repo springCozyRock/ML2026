@@ -1,0 +1,10 @@
+{
+  "ref": 57137125,
+  "date": "2026-10-13T08:41:12.583Z",
+  "description": "Arbor node3 robust Lasso plus pseudo-Huber residual; protected 5fold CV 0.10419448; fixed20percent blend",
+  "fileName": "submission_arbor_node3.csv",
+  "publicScore": "0.11480",
+  "privateScore": "",
+  "status": "complete",
+  "errorDescription": ""
+}

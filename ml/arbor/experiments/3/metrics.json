@@ -1,0 +1,8 @@
+{
+  "node_id": "3",
+  "hypothesis": "Lasso plus pseudo-Huber XGBoost residual; robust noisy-sale loss with fixed training rounds.",
+  "score": 0.10419447655090831,
+  "insight": "Robust residual blend gave small0.00013028 dev improvement on historical folds; online verification required before merge.",
+  "result": "One fixed5fold experiment passed hashes, schema and positivity.",
+  "branch": "codex/arbor-node-3"
+}

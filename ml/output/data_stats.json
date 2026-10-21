@@ -1,0 +1,29 @@
+{
+  "train_shape": [
+    1460,
+    81
+  ],
+  "test_shape": [
+    1459,
+    80
+  ],
+  "numeric_features": 36,
+  "categorical_features": 43,
+  "sale_price": {
+    "count": 1460.0,
+    "mean": 180921.19589041095,
+    "std": 79442.50288288662,
+    "min": 34900.0,
+    "25%": 129975.0,
+    "50%": 163000.0,
+    "75%": 214000.0,
+    "max": 755000.0
+  },
+  "raw_skew": 1.8828757597682129,
+  "log_skew": 0.12133506220520406,
+  "excluded_ids": [
+    524,
+    1299
+  ],
+  "duplicate_train_rows": 0
+}

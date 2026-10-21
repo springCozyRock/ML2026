@@ -1,0 +1,12 @@
+{
+  "mode": "keyless_real",
+  "new_experiments": 3,
+  "completed": 3,
+  "merged": 0,
+  "new_submissions": 1,
+  "start_utc": "2026-10-13T08:19:41Z",
+  "deadline_utc": "2026-10-13T08:49:41Z",
+  "exit_reason": "three_experiments_completed_no_verified_gain",
+  "best_kaggle_score": 0.11477,
+  "host_model_usage": "not measured; native LLM API calls0"
+}

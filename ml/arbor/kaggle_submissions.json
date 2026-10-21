@@ -1,0 +1,72 @@
+[
+  {
+    "ref": 57137125,
+    "date": "2026-10-13T08:41:12.583Z",
+    "description": "Arbor node3 robust Lasso plus pseudo-Huber residual; protected 5fold CV 0.10419448; fixed20percent blend",
+    "fileName": "submission_arbor_node3.csv",
+    "publicScore": "0.11480",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57129266,
+    "date": "2026-10-13T03:42:05.333Z",
+    "description": "v6 full-train model and multiseed fold bag; same train-only Partial expert; saved 12 inference pipelines",
+    "fileName": "submission_fullfit_bagged.csv",
+    "publicScore": "0.11507",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57128941,
+    "date": "2026-10-13T03:28:55.537Z",
+    "description": "v5 Train-only rare Partial-transaction expert plus multiseed blend; full-row OOF 0.10432; expert n=2",
+    "fileName": "submission_transaction_branch.csv",
+    "publicScore": "0.11477",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57128914,
+    "date": "2026-10-13T03:27:40.137Z",
+    "description": "v4 Frozen-weight multiseed blend; stability CV 0.10430; no transaction branch",
+    "fileName": "submission_multiseed.csv",
+    "publicScore": "0.12279",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57128728,
+    "date": "2026-10-13T03:18:28.61Z",
+    "description": "v3 Optuna residual-XGB SVR XGB CatBoost blend; OOF 0.10434; meta crossfit 0.10486",
+    "fileName": "submission_optimized.csv",
+    "publicScore": "0.12285",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57128633,
+    "date": "2026-10-13T03:14:28.597Z",
+    "description": "v2 Lasso SVR XGBoost blend; OOF 0.10603; fold-local preprocessing",
+    "fileName": "submission_preliminary.csv",
+    "publicScore": "0.12204",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  },
+  {
+    "ref": 57127763,
+    "date": "2026-10-13T02:32:03.667Z",
+    "description": "XGB + Lasso + LightGBM blend, local CV RMSLE 0.11123",
+    "fileName": "submission.csv",
+    "publicScore": "0.12333",
+    "privateScore": "",
+    "status": "complete",
+    "errorDescription": ""
+  }
+]

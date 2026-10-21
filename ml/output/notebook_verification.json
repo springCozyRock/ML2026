@@ -1,0 +1,72 @@
+[
+  {
+    "cell_index": 1,
+    "seconds": 0.40340375900268555,
+    "status": "passed"
+  },
+  {
+    "cell_index": 3,
+    "seconds": 0.004255056381225586,
+    "status": "passed"
+  },
+  {
+    "cell_index": 5,
+    "seconds": 0.00011181831359863281,
+    "status": "passed"
+  },
+  {
+    "cell_index": 6,
+    "seconds": 0.004779815673828125,
+    "status": "passed"
+  },
+  {
+    "cell_index": 8,
+    "seconds": 8.678436279296875e-05,
+    "status": "passed"
+  },
+  {
+    "cell_index": 10,
+    "seconds": 0.861248254776001,
+    "status": "passed"
+  },
+  {
+    "cell_index": 12,
+    "seconds": 0.0178220272064209,
+    "status": "passed"
+  },
+  {
+    "cell_index": 13,
+    "seconds": 0.00011396408081054688,
+    "status": "passed"
+  },
+  {
+    "cell_index": 15,
+    "seconds": 0.00017023086547851562,
+    "status": "passed"
+  },
+  {
+    "cell_index": 16,
+    "seconds": 6.818771362304688e-05,
+    "status": "passed"
+  },
+  {
+    "cell_index": 18,
+    "seconds": 0.004024982452392578,
+    "status": "passed"
+  },
+  {
+    "cell_index": 20,
+    "seconds": 0.04940295219421387,
+    "status": "passed"
+  },
+  {
+    "cell_index": 21,
+    "seconds": 0.003858804702758789,
+    "status": "passed"
+  },
+  {
+    "cell_index": 23,
+    "seconds": 0.002406597137451172,
+    "status": "passed"
+  }
+]

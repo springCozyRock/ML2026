@@ -1,0 +1,309 @@
+[
+  {
+    "name": "lasso_raw_log_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "raw",
+    "transform": "log",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_raw_log_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "raw",
+    "transform": "log",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "lasso_raw_boxcox_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "raw",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_raw_boxcox_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "raw",
+    "transform": "boxcox",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "lasso_engineered_log_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "engineered",
+    "transform": "log",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_engineered_log_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "engineered",
+    "transform": "log",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "lasso_engineered_boxcox_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_engineered_boxcox_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "lasso_extended_log_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "extended",
+    "transform": "log",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_extended_log_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "extended",
+    "transform": "log",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "lasso_extended_boxcox_robust",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "lasso_extended_boxcox_standard",
+    "kind": "lasso",
+    "params": {
+      "alpha": 0.0005,
+      "max_iter": 15000
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "standard",
+    "rare": 2
+  },
+  {
+    "name": "svr_engineered_10_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 10,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_engineered_20_0.00015",
+    "kind": "svr",
+    "params": {
+      "C": 20,
+      "epsilon": 0.008,
+      "gamma": 0.00015
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_engineered_20_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 20,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_engineered_30_0.0003",
+    "kind": "svr",
+    "params": {
+      "C": 30,
+      "epsilon": 0.008,
+      "gamma": 0.0003
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_engineered_50_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 50,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "engineered",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_extended_10_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 10,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_extended_20_0.00015",
+    "kind": "svr",
+    "params": {
+      "C": 20,
+      "epsilon": 0.008,
+      "gamma": 0.00015
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_extended_20_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 20,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_extended_30_0.0003",
+    "kind": "svr",
+    "params": {
+      "C": 30,
+      "epsilon": 0.008,
+      "gamma": 0.0003
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "svr_extended_50_0.0005",
+    "kind": "svr",
+    "params": {
+      "C": 50,
+      "epsilon": 0.008,
+      "gamma": 0.0005
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 2
+  },
+  {
+    "name": "ridge_extended_8",
+    "kind": "ridge",
+    "params": {
+      "alpha": 8
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 3
+  },
+  {
+    "name": "ridge_extended_20",
+    "kind": "ridge",
+    "params": {
+      "alpha": 20
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 3
+  },
+  {
+    "name": "ridge_extended_50",
+    "kind": "ridge",
+    "params": {
+      "alpha": 50
+    },
+    "level": "extended",
+    "transform": "boxcox",
+    "scale": "robust",
+    "rare": 3
+  }
+]
