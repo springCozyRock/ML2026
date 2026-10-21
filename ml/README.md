@@ -1,6 +1,6 @@
 # House Prices 作业
 
-边通书 · 计算机科学与技术 · 26B351012
+
 
 官方比赛：<https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques>
 
