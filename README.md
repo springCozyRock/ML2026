@@ -25,4 +25,4 @@ python experiment.py --run screen
 
 完整训练、调参与复现步骤见 [`ml/README.md`](ml/README.md)。完整模型与逐折预测需要重新训练生成；仓库只保留实验汇总，避免误用不完整的模型检查点。重建报告另需 `reportlab`、`pypdf`、`Pillow`，Notebook 另需 IPython/Jupyter。
 
-Kaggle 认证由 `KAGGLE_API_TOKEN` 环境变量提供。仓库不包含访问凭据。
+
